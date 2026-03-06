@@ -1,0 +1,14 @@
+// Problem 8 - Countdown using while loop
+import java.util.Scanner;
+
+public class Problem8 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int counter = sc.nextInt();
+
+        while(counter >= 1) {
+            System.out.println(counter);
+            counter--;
+        }
+    }
+}
